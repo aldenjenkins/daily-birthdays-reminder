@@ -11,6 +11,6 @@
 -   In a crontab:
 
 ```{bash}
-SMTP_HOST=smtp.site.com SMTP_PASS=password EMAIL_FROM=from@test.com EMAIL_TO=to@test.com /the_dir/send_email.py
+BIRTHDAYS_CSV="newlinedeliminatedtext" SMTP_HOST=smtp.site.com SMTP_PASS=password EMAIL_FROM=from@test.com EMAIL_TO=to@test.com /the_dir/send_email.py
 
 ```
