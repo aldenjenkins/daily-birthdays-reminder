@@ -48,7 +48,7 @@ def main():
     host = os.getenv('EMAIL_HOST')
     from_email = os.getenv('EMAIL_HOST_USER')
     to_email = os.getenv('EMAIL_TO')
-    csv_string = os.getenv('BIRTHDAYS_CSV')
+    birthdays_csv = os.getenv('BIRTHDAYS_CSV')
     error_msg = 'Please add BIRTHDAYS_CSV, EMAIL_HOST_PASSWORD, EMAIL_HOST, EMAIL_HOST_USER, and EMAIL_TO as env vars'
     assert all([birthdays_csv, password, host, from_email, to_email]), error_msg
 
